@@ -11,10 +11,13 @@ dependencies:
   flutter_clock_helper:
     path: ../flutter_clock_helper
   cupertino_icons: ^0.1.2
+  google_fonts: ^0.3.2
+  flutter_svg: ^0.16.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
 flutter:
   uses-material-design: true
@@ -22,3 +25,11 @@ flutter:
     - family: PressStart2P
       fonts:
         - asset: third_party/PressStart2P-Regular.ttf
+  assets:
+    - assets/windy.svg
+    - assets/rainy.svg
+    - assets/cloudy.svg
+    - assets/fog.svg
+    - assets/snow.svg
+    - assets/sunny.svg
+    - assets/thunder.svg
